@@ -1,0 +1,26 @@
+@import (reference) "~@blueprintjs/core/lib/less/variables";
+@import "~@blueprintjs/core/lib/css/blueprint.css";
+@import "~@blueprintjs/datetime/lib/css/blueprint-datetime.css";
+@import "~@blueprintjs/icons/lib/css/blueprint-icons.css";
+@import "~@blueprintjs/select/lib/css/blueprint-select.css";
+@import "~mapbox-gl/dist/mapbox-gl.css";
+
+@import "./components/Map";
+@import "./components/MapMarker";
+@import "./components/ListItem";
+@import "./components/Sidebar";
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.myapp {
+  position: absolute;
+  display: flex;
+  overflow: hidden;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}

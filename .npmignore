@@ -1,0 +1,9 @@
+/node_modules/
+/src/
+/lib/__demo__
+/lib/__tests__
+
+.gitignore
+.npmignore
+.npmrc
+tsconfig.json

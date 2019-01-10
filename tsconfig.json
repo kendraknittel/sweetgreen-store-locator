@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "jsx": "react",
+    "lib": [
+      "dom",
+      "es2015.core",
+      "es2015.collection",
+      "es2015.iterable",
+      "es2015.promise",
+      "es2015.symbol",
+      "es6"
+    ],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "outDir": "lib",
+    "preserveConstEnums": true,
+    "removeComments": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "es5"
+  },
+  "exclude": [
+    "node_modules",
+    "lib"
+  ]
+}
